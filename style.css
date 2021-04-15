@@ -1,0 +1,48 @@
+body{
+    text-transform: uppercase;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 75%;
+    margin: 0 auto;
+    border: 1px solid black;
+    text-align: center;
+    
+}
+.flex-blacjack-row-1,.flex-blacjack-row-2,.flex-blacjack-row-3{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: space-around;
+    border: 1px solid black;
+    padding: 10px;
+    flex-direction: row;
+    
+}
+
+.flex-blacjack-row-1,.flex-blacjack-row-2 {
+    background: url('temp.jpg') center;
+    color: white;
+    background-size: cover;
+    
+}
+.flex-blacjack-row-1 div{
+border: 1px solid white;
+text-align: center;
+height: 500px;
+flex: 1;
+
+}
+#your-box{
+    justify-content: space-around;
+}
+table,tr,td{
+    border: 1px solid black;
+    padding: 5px;
+    font-weight: bold;
+}
+.flex-blacjack-row-1 img{
+    width: 25%;
+    padding: 10px;
+}
